@@ -1,0 +1,42 @@
+{
+  "name": "Love song",
+  "description": "Choosing a love song from youtube and singing it",
+  "main": "Main.xaml",
+  "dependencies": {
+    "MathNet.Numerics": "[4.5.1]",
+    "UiPath.Citrix.Activities": "[1.0.0]",
+    "UiPath.Excel.Activities": "[2.8.1-preview]",
+    "UiPath.Mail.Activities": "[1.8.1-preview]",
+    "UiPath.System.Activities": "[20.2.0-preview]",
+    "UiPath.UIAutomation.Activities": "[20.2.0-preview]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.2.0.108",
+  "projectVersion": "1.0.1",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": []
+  },
+  "arguments": {
+    "input": [],
+    "output": []
+  },
+  "expressionLanguage": "VisualBasic"
+}
